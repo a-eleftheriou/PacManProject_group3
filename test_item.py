@@ -25,8 +25,8 @@ def test_pellet_initialization(pellet, power_pellet):
     #check default values of pellets set correctly 
     assert pellet.x == 5
     assert pellet.y == 5
-    assert power_pellet == 5
-    assert power_pellet == 5
+    assert power_pellet == 50
+    assert power_pellet == 50
     assert pellet.radius == 2
     assert power_pellet.radius == 8
     assert pellet.collected == False 
