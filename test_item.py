@@ -25,11 +25,12 @@ def test_pellet_initialization(pellet, power_pellet):
     #check default values of pellets set correctly 
     assert pellet.x == 5
     assert pellet.y == 5
-    assert power_pellet == 50
-    assert power_pellet == 50
     assert pellet.radius == 2
-    assert power_pellet.radius == 8
     assert pellet.collected == False 
+    
+    assert power_pellet.x == 50
+    assert power_pellet.y == 50
+    assert power_pellet.radius == 8
     assert power_pellet.collected == False
 
 def test_draw(pellet, power_pellet):
