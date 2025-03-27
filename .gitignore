@@ -10,7 +10,7 @@ venv/
 
 .github/workflows/ci.yml
 
-test_ghost.py
+test_ghosts.py
 test_items.py
 test_gameboard.py
 test_game_logic.py
