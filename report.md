@@ -11,3 +11,6 @@ I contributed to the repo by 'implementing' the ghost.py file as well as writing
 
 ## Joshua
 I created the item branch and 'implemented' the item.py functionality and wrote tests for it(I wasn't aware this was unnecessary). I created a PR to merge the feature/item branch which included my changes, which Antonios reviewed. I also reviewed Antonios' PR for merging the game_board feature branch and merged it with the main branch. 
+
+## Saanvi
+I created the player branch and 'implemented' the player.py feature functionality, and I also filled in the blanks for the tests for test_player.py. I created a PR to merge this feature, which my group members were able to accept. At first, I committed it to the upstream repository and not the forked one, so I had to go back and make sure that I recreated a pull request on the forked repository.
