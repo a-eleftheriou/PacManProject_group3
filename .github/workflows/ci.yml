@@ -30,7 +30,7 @@ jobs:
         pip install pytest pytest-cov flake8 black pygame
 
     - name: Check Code Formatting with Black 
-      run: black --check --diff 
+      run: black --check --diff .
 
     - name: Lint Code with Flake8 
       run: | 
