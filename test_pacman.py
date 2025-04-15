@@ -56,6 +56,7 @@ def test_pacman_wall_collision(pacman, walls):
 
 # UNCOMMENT and FILL THIS IN
 
+
 def test_pacman_movement_with_obstacles(pacman, walls):
     # Step 1: Move pacman towards an obstacle (left wall)
     pacman.x = 25
@@ -78,4 +79,3 @@ def test_pacman_movement_with_obstacles(pacman, walls):
     # Assert that the pacman's position hasn't changed, as they can't move past the wall
     assert pacman.x == 780
     # Should not move beyond the right wall
-
