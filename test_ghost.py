@@ -30,7 +30,7 @@ def test_ghost_initialization(ghost):
 
 
 @pytest.fixture
-def test_ghost_movement(ghost, player, walls):
+def test_ghost_movement(ghost, pacman, walls):
     orig_x, orig_y = ghost.x, ghost.y
-    ghost.move(walls, player)
+    ghost.move(walls, pacman)
     assert (ghost.x != orig_x or ghost.y != orig_y)
