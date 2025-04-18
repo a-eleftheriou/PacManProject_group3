@@ -5,3 +5,6 @@ I created this report file and reviewed, approved, and merged pull requests crea
 
 ## Bhavini
 I worked on the "Secure Sensitive Information" part of the project. I used .gitignore to exclude the .env file from future commits and removed it from Git tracking using git rm --cached. To prevent access to sensitive data in past commits, I ran git filter-branch to clean the repository history and remove all traces of .env. The cleaned branch was then safely pushed and submitted as a pull request for review.
+
+## Joshua
+I worked on updating the player to Pac-Man wherever necessary. This included all file contents and names. I used a command involving sed and grep to check for all file contents to update "player" to "Pacman." Some files weren't completely updated, which Antonios caught and then updated accordingly. A PR was made for review. 
