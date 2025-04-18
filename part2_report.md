@@ -12,3 +12,5 @@ I worked on updating the player to Pac-Man wherever necessary. This included all
 ## Saanvi
 I worked with Harleen to create the YAML file for the CI pipeline. We worked together on figuring out the format of the file, and then I added half of the implementation, from the part of installing system dependencies down to running the pytests. Then I created a PR that was made for review. 
 
+## Harleen
+I worked with Saanvi to create a ci_yaml_file_creation branch, on which we created the .github/workflows directories and implemented the ci.yml file for the CI pipeline. Specifically, I added the branch set up in the beginning and the start of jobs, including running on ubuntu, checking out the code, and setting up Python v3.10. When merging these changes, I noticed that our code was not formatted as according to Black specifications, so I pip-installed black on the python venv and ran 'black .' so that we can adhere to what Black required. Finally, I pushed those changes, resolved a few merge conflicts, and merged the ci_yaml_file_creation branch which then passed all the tests in the pipeline.
