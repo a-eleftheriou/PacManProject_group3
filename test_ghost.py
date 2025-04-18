@@ -33,4 +33,4 @@ def test_ghost_initialization(ghost):
 def test_ghost_movement(ghost, pacman, walls):
     orig_x, orig_y = ghost.x, ghost.y
     ghost.move(walls, pacman)
-    assert (ghost.x != orig_x or ghost.y != orig_y)
+    assert ghost.x != orig_x or ghost.y != orig_y
