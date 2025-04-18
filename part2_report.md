@@ -11,3 +11,4 @@ I worked on updating the player to Pac-Man wherever necessary. This included all
 
 ## Saanvi
 I worked with Harleen to create the YAML file for the CI pipeline. We worked together on figuring out the format of the file, and then I added half of the implementation, from the part of installing system dependencies down to running the pytests. Then I created a PR that was made for review. 
+
